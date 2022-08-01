@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eslande Aaster - Shen You Zhu | Bamzhu Site</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Square+Peg|Sniglet|Noto+Sans+SC|Noto+Sans+TC">
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="sil-fonts/CharisSIL-webfont-example.css">
+    <style>
+        :root {
+            --handwritten: 'Square Peg';
+            --display: 'Sniglet';
+            --chinese: 'Noto Sans SC', 'Noto Sans TC';
+        }
+        body {
+            font-family: var(--display), var(--chinese);
+        }
+        .separator {
+            border: 0.01em solid white;
+        }
+        .separator::before {
+            content: '';
+        }
+        .pinyin {
+            font-family: 'CharisSILW';
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-neutral-900 [min-height:100vh] text-white text-xl flex justify-center [align-items:center] [width:100%] [flex-direction:column] [text-align:center]">
+        <span class="[font-family:var(--handwritten)] text-4xl lg:text-6xl">bamzhu.</span>
+        <div>
+            A physics undergraduate currently studying in <a href="https://ox.ac.uk">Oxford</a>.
+        </div>
+        <div class="flex [width:100%] md:[width:70%] lg:[width:30%] [margin-top:1em]">
+            <div class="[text-align:left] lg:[margin-right:1em] [width:100%] [margin-left:0.5em] lg:[margin-left:0] lg:[width:50%] text-base">
+                Hi there!
+                Eslande here. You can also refer to me with my Chinese name, Shen You Zhu (沈莜竹, <span class="pinyin">shěn yōu zhú</span>). <br> <br>
+                I was born and raised in <a href="https://www.google.com/search?q=London">London</a> since my birth, 31<sup>st</sup> of March in 2008. <br> <br>
+                However, my siblings are all in China with my mum, and they currently reside in <a href="#YayaProvince">Saveur, Dualduck</a>.
+            </div>
+            <div class="separator hidden lg:[display:block]"></div>
+            <div class="[text-align:left] lg:[margin-left:1em] [width:100%] lg:[width:50%] text-base">
+                My roommate / girlfriend is <a href="#AdrianaLin">Adriana Lin Xiao Wen</a>, a creature that is annoying but adorable. <br> <br>
+                I am a physics undergraduate, which, is stated above under the name of this site. As a hobby, I play rhythm games occasionally. As for music, I listen to J-Pop and Kawaii Bass.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
