@@ -574,34 +574,19 @@ video {
   border-width: 1px;
 }
 
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
-}
-
 .bg-neutral-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(23 23 23 / var(--tw-bg-opacity));
 }
 
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-base {
@@ -618,16 +603,12 @@ video {
   min-height: 100vh;
 }
 
-.\[font-family\:var\(--handwritten\)\] {
-  font-family: var(--handwritten);
+.\[align-items\:center\] {
+  align-items: center;
 }
 
 .\[width\:100\%\] {
   width: 100%;
-}
-
-.\[align-items\:center\] {
-  align-items: center;
 }
 
 .\[flex-direction\:column\] {
@@ -638,67 +619,23 @@ video {
   text-align: center;
 }
 
-.\[flex-direction\:row\] {
-  flex-direction: row;
-}
-
-.\[text-align\:left\] {
-  text-align: left;
-}
-
-.\[margin-right\:1\%\] {
-  margin-right: 1%;
-}
-
-.\[width\:25\%\] {
-  width: 25%;
-}
-
-.\[width\:80\%\] {
-  width: 80%;
-}
-
-.\[width\:50\%\] {
-  width: 50%;
-}
-
-.\[margin-top\:5\%\] {
-  margin-top: 5%;
+.\[font-family\:var\(--handwritten\)\] {
+  font-family: var(--handwritten);
 }
 
 .\[margin-top\:1em\] {
   margin-top: 1em;
 }
 
-.\[width\:30\%\] {
-  width: 30%;
-}
-
-.\[margin\:5\%\] {
-  margin: 5%;
-}
-
-.\[margin-left\:1em\] {
-  margin-left: 1em;
+.\[text-align\:left\] {
+  text-align: left;
 }
 
 .\[margin-left\:0\.5em\] {
   margin-left: 0.5em;
 }
 
-.\[margin-left\:1\%\] {
-  margin-left: 1%;
-}
-
-.\[width\:100\] {
-  width: 100;
-}
-
 @media (min-width: 768px) {
-  .md\:\[width\:50\%\] {
-    width: 50%;
-  }
-
   .md\:\[width\:70\%\] {
     width: 70%;
   }
@@ -710,36 +647,28 @@ video {
     line-height: 1;
   }
 
-  .lg\:\[display\:block\] {
-    display: block;
+  .lg\:\[flex-direction\:row\] {
+    flex-direction: row;
   }
 
   .lg\:\[width\:30\%\] {
     width: 30%;
   }
 
-  .lg\:\[width\:50\%\] {
-    width: 50%;
+  .lg\:\[margin-right\:1em\] {
+    margin-right: 1em;
   }
 
   .lg\:\[margin-left\:0\] {
     margin-left: 0;
   }
 
-  .lg\:\[margin-right\:1\%\] {
-    margin-right: 1%;
+  .lg\:\[width\:50\%\] {
+    width: 50%;
   }
 
-  .lg\:\[margin-left\:1\%\] {
-    margin-left: 1%;
-  }
-
-  .lg\:\[margin-left\:0\.5em\] {
-    margin-left: 0.5em;
-  }
-
-  .lg\:\[margin-right\:1em\] {
-    margin-right: 1em;
+  .lg\:\[display\:block\] {
+    display: block;
   }
 
   .lg\:\[margin-left\:1em\] {
